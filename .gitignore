@@ -1,0 +1,34 @@
+# Personal profile data — gitignored by default
+# These files contain your personal answers and are specific to you.
+# If you want to share your profile as a working example, remove these lines.
+profile/master-profile.json
+tracking/answered.json
+sessions/
+exports/
+quizzes/results.json
+
+# Keep these tracked (system files, not personal data)
+# questions/bank.json
+# quizzes/test-library.json
+# CLAUDE.md
+# skills/wisdom-builder.md
+
+# Claude Code internal files
+.claude/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor files
+.vscode/
+*.code-workspace
+.idea/
+
+# Logs
+*.log
+
+# Temp files
+*.tmp
+*.bak

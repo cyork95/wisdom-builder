@@ -1,0 +1,119 @@
+{
+  "schema_version": "1.0",
+  "last_discovery_search": null,
+  "next_discovery_at_session": 10,
+  "tests": [
+    {
+      "id": "T001",
+      "name": "16Personalities (MBTI)",
+      "url_hint": "16personalities.com/free-personality-test",
+      "category": "mbti",
+      "description": "The most popular MBTI-style test. Returns a 4-letter type plus 5 percentages.",
+      "recommended_at_session": 3,
+      "date_suggested": "2026-05-18",
+      "date_completed": "2026-05-18",
+      "result_key": "type_and_percentages",
+      "result": "INTJ-A | 86% I, 63% N, 93% T, 85% J, 71% Assertive"
+    },
+    {
+      "id": "T002",
+      "name": "Political Compass Test",
+      "url_hint": "politicalcompass.org/test",
+      "category": "political",
+      "description": "Classic two-axis political compass. Returns economic (left/right) and social (authoritarian/libertarian) coordinates.",
+      "recommended_at_session": 5,
+      "date_suggested": "2026-05-20",
+      "date_completed": "2026-05-20",
+      "result_key": "coordinates",
+      "result": "Right-Libertarian | Economic: +3.0, Social: -4.0"
+    },
+    {
+      "id": "T003",
+      "name": "Big Five IPIP-NEO (OpenPsychometrics)",
+      "url_hint": "openpsychometrics.org/tests/IPIP-NEO",
+      "category": "big5",
+      "description": "Free, research-grade Big Five personality test. Returns OCEAN percentile scores.",
+      "recommended_at_session": 7,
+      "date_suggested": null,
+      "date_completed": null,
+      "result_key": "ocean_percentiles"
+    },
+    {
+      "id": "T004",
+      "name": "Truity Enneagram",
+      "url_hint": "truity.com/test/enneagram-personality-test",
+      "category": "enneagram",
+      "description": "Enneagram personality test. Returns a type (1-9) and wing, plus scores for all types.",
+      "recommended_at_session": 9,
+      "date_suggested": null,
+      "date_completed": null,
+      "result_key": "type_and_wing"
+    },
+    {
+      "id": "T005",
+      "name": "VIA Character Strengths Survey",
+      "url_hint": "viacharacter.org/surveys/takesurvey",
+      "category": "strengths",
+      "description": "Identifies your top character strengths out of 24.",
+      "recommended_at_session": 10,
+      "date_suggested": null,
+      "date_completed": null,
+      "result_key": "top_strengths"
+    },
+    {
+      "id": "T006",
+      "name": "Attachment Style Quiz",
+      "url_hint": "attachmentstyletest.com",
+      "category": "attachment",
+      "description": "Identifies adult attachment style: Secure, Anxious, Avoidant, or Fearful-Avoidant.",
+      "recommended_at_session": 12,
+      "date_suggested": null,
+      "date_completed": null,
+      "result_key": "attachment_style"
+    },
+    {
+      "id": "T007",
+      "name": "Love Languages Quiz",
+      "url_hint": "5lovelanguages.com/quizzes",
+      "category": "relationships",
+      "description": "Chapman's 5 Love Languages. Returns ranked preference.",
+      "recommended_at_session": 14,
+      "date_suggested": null,
+      "date_completed": null,
+      "result_key": "ranked_languages"
+    },
+    {
+      "id": "T008",
+      "name": "IDRlabs Dark Triad Test",
+      "url_hint": "idrlabs.com/dark-triad/test.php",
+      "category": "dark_triad",
+      "description": "Measures Narcissism, Machiavellianism, and Psychopathy traits. For self-awareness.",
+      "recommended_at_session": 16,
+      "date_suggested": null,
+      "date_completed": null,
+      "result_key": "triad_scores"
+    },
+    {
+      "id": "T009",
+      "name": "Moral Foundations Questionnaire",
+      "url_hint": "yourmorals.org",
+      "category": "moral_foundations",
+      "description": "Haidt's Moral Foundations Theory. Measures Care, Fairness, Loyalty, Authority, Sanctity, Liberty.",
+      "recommended_at_session": 18,
+      "date_suggested": null,
+      "date_completed": null,
+      "result_key": "foundation_scores"
+    },
+    {
+      "id": "T010",
+      "name": "CliftonStrengths (Gallup)",
+      "url_hint": "gallup.com/cliftonstrengths",
+      "category": "strengths",
+      "description": "Gallup's flagship strengths assessment. Top 5 talent themes (free tier).",
+      "recommended_at_session": 20,
+      "date_suggested": null,
+      "date_completed": null,
+      "result_key": "top_strengths"
+    }
+  ]
+}
