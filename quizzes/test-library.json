@@ -25,7 +25,7 @@
       "date_suggested": "2026-05-20",
       "date_completed": "2026-05-20",
       "result_key": "coordinates",
-      "result": "Right-Libertarian | Economic: +3.0, Social: -4.0"
+      "result": "True Center | Economic: -0.38, Social: +0.15 (official score confirmed by user)"
     },
     {
       "id": "T003",
@@ -34,9 +34,10 @@
       "category": "big5",
       "description": "Free, research-grade Big Five personality test. Returns OCEAN percentile scores.",
       "recommended_at_session": 7,
-      "date_suggested": null,
-      "date_completed": null,
-      "result_key": "ocean_percentiles"
+      "date_suggested": "2026-05-25",
+      "date_completed": "2026-05-25",
+      "result_key": "ocean_percentiles",
+      "result": "O:36 C:95 E:39 A:75 N:49 | Screenshots stored locally in ipip-neo/"
     },
     {
       "id": "T004",
@@ -45,9 +46,10 @@
       "category": "enneagram",
       "description": "Enneagram personality test. Returns a type (1-9) and wing, plus scores for all types.",
       "recommended_at_session": 9,
-      "date_suggested": null,
-      "date_completed": null,
-      "result_key": "type_and_wing"
+      "date_suggested": "2026-06-09",
+      "date_completed": "2026-06-09",
+      "result_key": "type_and_wing",
+      "result": "Type 5 — The Investigator | Wing unconfirmed (paid). From chart: Type 1 and Type 8 also prominent."
     },
     {
       "id": "T005",
@@ -62,50 +64,87 @@
     },
     {
       "id": "T006",
-      "name": "Attachment Style Quiz",
-      "url_hint": "attachmentstyletest.com",
-      "category": "attachment",
-      "description": "Identifies adult attachment style: Secure, Anxious, Avoidant, or Fearful-Avoidant.",
-      "recommended_at_session": 12,
+      "name": "Truity DISC Personality Test",
+      "url_hint": "truity.com/test/disc-personality-test",
+      "category": "disc",
+      "description": "DISC personality assessment — Dominance, Influence, Steadiness, Conscientiousness. Maps communication and work style.",
+      "recommended_at_session": 11,
       "date_suggested": null,
       "date_completed": null,
-      "result_key": "attachment_style"
+      "result_key": "disc_type",
+      "notes": "Changed to Truity per user preference. Free tier returns primary DISC type and profile."
     },
     {
       "id": "T007",
+      "name": "Truity Attachment Style Test",
+      "url_hint": "truity.com/test/attachment-style-test",
+      "category": "attachment",
+      "description": "Identifies adult attachment style across 4 types: Secure, Anxious, Avoidant, Fearful-Avoidant. Shows scores for all 4.",
+      "recommended_at_session": 12,
+      "date_suggested": null,
+      "date_completed": null,
+      "result_key": "attachment_style",
+      "notes": "Swapped from attachmentstyletest.com to Truity per user preference."
+    },
+    {
+      "id": "T008",
+      "name": "Truity Holland Code (RIASEC) Career Test",
+      "url_hint": "truity.com/test/holland-code-career-test",
+      "category": "career_interests",
+      "description": "Holland Code / RIASEC model — Realistic, Investigative, Artistic, Social, Enterprising, Conventional. Maps career interest profile.",
+      "recommended_at_session": 13,
+      "date_suggested": null,
+      "date_completed": null,
+      "result_key": "riasec_code",
+      "notes": "Added per user preference for Truity. Good complement to Enneagram Type 5 (Investigative type expected dominant)."
+    },
+    {
+      "id": "T009",
       "name": "Love Languages Quiz",
       "url_hint": "5lovelanguages.com/quizzes",
       "category": "relationships",
-      "description": "Chapman's 5 Love Languages. Returns ranked preference.",
+      "description": "Chapman's 5 Love Languages. Returns ranked preference — Words of Affirmation, Acts of Service, Receiving Gifts, Quality Time, Physical Touch.",
       "recommended_at_session": 14,
       "date_suggested": null,
       "date_completed": null,
       "result_key": "ranked_languages"
     },
     {
-      "id": "T008",
+      "id": "T010",
+      "name": "Truity TypeFinder for Relationships",
+      "url_hint": "truity.com/test/typefinder-personality-test-for-couples",
+      "category": "relationships",
+      "description": "Relationship-specific personality test from Truity. Shows how your type functions in romantic relationships.",
+      "recommended_at_session": 15,
+      "date_suggested": null,
+      "date_completed": null,
+      "result_key": "relationship_type",
+      "notes": "Added per user preference for Truity. Complements Love Languages and Attachment Style results."
+    },
+    {
+      "id": "T011",
       "name": "IDRlabs Dark Triad Test",
       "url_hint": "idrlabs.com/dark-triad/test.php",
       "category": "dark_triad",
-      "description": "Measures Narcissism, Machiavellianism, and Psychopathy traits. For self-awareness.",
-      "recommended_at_session": 16,
+      "description": "Measures Narcissism, Machiavellianism, and Psychopathy traits. For self-awareness, not judgment.",
+      "recommended_at_session": 17,
       "date_suggested": null,
       "date_completed": null,
       "result_key": "triad_scores"
     },
     {
-      "id": "T009",
+      "id": "T012",
       "name": "Moral Foundations Questionnaire",
       "url_hint": "yourmorals.org",
       "category": "moral_foundations",
-      "description": "Haidt's Moral Foundations Theory. Measures Care, Fairness, Loyalty, Authority, Sanctity, Liberty.",
-      "recommended_at_session": 18,
+      "description": "Haidt's Moral Foundations Theory. Measures Care, Fairness, Loyalty, Authority, Sanctity, Liberty. Complements political compass and moral framework profile.",
+      "recommended_at_session": 19,
       "date_suggested": null,
       "date_completed": null,
       "result_key": "foundation_scores"
     },
     {
-      "id": "T010",
+      "id": "T013",
       "name": "CliftonStrengths (Gallup)",
       "url_hint": "gallup.com/cliftonstrengths",
       "category": "strengths",

@@ -56,3 +56,32 @@ Auto-expansion: if any category drops below 5 eligible (non-cooldown) questions 
 | `exports/master-profile.md` | `WisdomBuilder — Master Profile` (replace each session) |
 | `exports/session-N-YYYY-MM-DD.md` | `WisdomBuilder — Session N — YYYY-MM-DD` (keep all) |
 | `exports/profile-export-YYYY-MM-DD.md` | `WisdomBuilder — Full Profile Export — DATE` (on demand) |
+
+## Obsidian Vault (Primary Export Target)
+
+After every session, write files **directly to the Obsidian vault** in addition to the `exports/` folder. The vault is at:
+
+```
+G:\My Drive\My Life Vault\My Life Vault\20 Areas\Personal Development\Wisdom Building\
+```
+
+**Every file written to Obsidian must include this YAML frontmatter:**
+
+```yaml
+---
+category: areas
+tags: ["status/active", "topic/personal-development", "topic/wisdom"]
+created: YYYY-MM-DD   ← date the session/profile was created
+modified: YYYY-MM-DD  ← today's date
+---
+```
+
+**Files to write after each session:**
+
+| Obsidian file | Action | Content |
+|---|---|---|
+| `WisdomBuilder — Cody's Master Profile.md` | Overwrite | Full master profile (same as `exports/master-profile.md`, with frontmatter, without the Standard Notes footer line) |
+| `WisdomBuilder — Session N — YYYY-MM-DD.md` | Create new | Full session Q&A log (same as `exports/session-N-YYYY-MM-DD.md`, with frontmatter, without the Standard Notes footer line) |
+
+**Do not** include the `*Paste into Standard Notes as: ...*` footer lines in Obsidian files.
+**Do not** push the Obsidian vault path to GitHub — it is a local personal vault.

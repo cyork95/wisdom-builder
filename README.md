@@ -45,12 +45,14 @@ Or create them fresh — schemas are documented below.
 Copy the skill trigger to your Claude Code global skills folder:
 
 **Windows:**
-```
+
+```txt
 C:\Users\YOUR_USERNAME\.claude\skills\wisdom-builder.md
 ```
 
 **Mac/Linux:**
-```
+
+```txt
 ~/.claude/skills/wisdom-builder.md
 ```
 
@@ -71,7 +73,7 @@ Claude will ask how many questions you want — **Quick (5)**, **Standard (7)**,
 
 ## File structure
 
-```
+```txt
 WisdomBuilder/
 ├── CLAUDE.md                          ← Instructions for Claude Code
 ├── README.md                          ← This file
@@ -135,7 +137,7 @@ Every question in `questions/bank.json` follows this schema:
 ## Scoring reference
 
 | Dimension | Scale | Direction |
-|---|---|---|
+| --- | --- | --- |
 | `mbti_ei` | -10 to +10 | negative = Introvert, positive = Extravert |
 | `mbti_sn` | -10 to +10 | negative = iNtuitive, positive = Sensing |
 | `mbti_tf` | -10 to +10 | negative = Feeling, positive = Thinking |
@@ -156,7 +158,7 @@ Every question in `questions/bank.json` follows this schema:
 WisdomBuilder recommends external tests at milestone sessions to anchor the profile with validated external data:
 
 | Session | Test | URL |
-|---|---|---|
+| --- | --- | --- |
 | 3 | 16Personalities (MBTI) | 16personalities.com/free-personality-test |
 | 5 | Political Compass | politicalcompass.org/test |
 | 7 | Big Five IPIP-NEO | openpsychometrics.org/tests/IPIP-NEO |
@@ -184,6 +186,7 @@ Results are stored in `quizzes/results.json` and used to recalibrate the profile
 8. Suggests any due online tests
 
 **Special commands:**
+
 - `"show my profile"` — displays current profile without running questions
 - `"export my profile"` — writes a full profile export to `exports/`
 - `"add quiz results"` — updates profile with online test results
@@ -193,7 +196,7 @@ Results are stored in `quizzes/results.json` and used to recalibrate the profile
 ## Standard Notes export
 
 | File | Standard Notes title |
-|---|---|
+| --- | --- |
 | `exports/master-profile.md` | `WisdomBuilder — Master Profile` *(replace each session)* |
 | `exports/session-N-YYYY-MM-DD.md` | `WisdomBuilder — Session N — YYYY-MM-DD` *(keep all)* |
 

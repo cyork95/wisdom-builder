@@ -1,4 +1,6 @@
 # Personal profile data — gitignored by default
+# IPIP-NEO test result screenshots (local backup only, never push)
+ipip-neo/
 # These files contain your personal answers and are specific to you.
 # If you want to share your profile as a working example, remove these lines.
 profile/master-profile.json
